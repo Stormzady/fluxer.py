@@ -411,7 +411,7 @@ class VoiceClient(VoiceProtocol):
 
     def _encrypt_xsalsa20_poly1305(self, header: bytes, data) -> bytes:
         # Deprecated. Removal: 18th Nov 2024. See:
-        # https://discord.com/developers/docs/topics/voice-connections#transport-encryption-modes
+        # https://fluxer.app/developers/docs/topics/voice-connections#transport-encryption-modes
         box = nacl.secret.SecretBox(bytes(self.secret_key))
         nonce = bytearray(24)
         nonce[:12] = header
@@ -420,7 +420,7 @@ class VoiceClient(VoiceProtocol):
 
     def _encrypt_xsalsa20_poly1305_suffix(self, header: bytes, data) -> bytes:
         # Deprecated. Removal: 18th Nov 2024. See:
-        # https://discord.com/developers/docs/topics/voice-connections#transport-encryption-modes
+        # https://fluxer.app/developers/docs/topics/voice-connections#transport-encryption-modes
         box = nacl.secret.SecretBox(bytes(self.secret_key))
         nonce = nacl.utils.random(nacl.secret.SecretBox.NONCE_SIZE)
 
@@ -428,7 +428,7 @@ class VoiceClient(VoiceProtocol):
 
     def _encrypt_xsalsa20_poly1305_lite(self, header: bytes, data) -> bytes:
         # Deprecated. Removal: 18th Nov 2024. See:
-        # https://discord.com/developers/docs/topics/voice-connections#transport-encryption-modes
+        # https://fluxer.app/developers/docs/topics/voice-connections#transport-encryption-modes
         box = nacl.secret.SecretBox(bytes(self.secret_key))
         nonce = bytearray(24)
 

@@ -617,7 +617,7 @@ class SyncWebhook(BaseWebhook):
     @property
     def url(self) -> str:
         """:class:`str` : Returns the webhook's url."""
-        return f'https://discord.com/api/webhooks/{self.id}/{self.token}'
+        return f'https://api.fluxer.app/webhooks/{self.id}/{self.token}'
 
     @classmethod
     def partial(cls, id: int, token: str, *, session: Session = MISSING, bot_token: Optional[str] = None) -> SyncWebhook:

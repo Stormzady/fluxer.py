@@ -369,7 +369,7 @@ def oauth_url(
     :class:`str`
         The OAuth2 URL for inviting the bot into guilds.
     """
-    url = f'https://discord.com/oauth2/authorize?client_id={client_id}'
+    url = f'https://fluxer.app/oauth2/authorize?client_id={client_id}'
     if scopes is not None:
         url += '&scope=' + '+'.join(scopes or ('bot', 'applications.commands'))
     if permissions is not MISSING:
