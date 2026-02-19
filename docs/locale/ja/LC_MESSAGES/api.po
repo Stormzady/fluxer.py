@@ -22,12 +22,12 @@ msgid "API Reference"
 msgstr "APIリファレンス"
 
 #: ../../api.rst:6
-msgid "The following section outlines the API of discord.py."
-msgstr "ここではdiscord.pyのAPIの概要を説明します。"
+msgid "The following section outlines the API of fluxer.py."
+msgstr "ここではfluxer.pyのAPIの概要を説明します。"
 
 #: ../../api.rst:10
-msgid "This module uses the Python logging module to log diagnostic and errors in an output independent way.  If the logging module is not configured, these logs will not be output anywhere.  See :ref:`logging_setup` for more information on how to set up and use the logging module with discord.py."
-msgstr "このモジュールはPythonのloggingモジュールを使用して、出力に依存しない方法でエラーや診断の内容を記録します。loggingモジュールが設定されていない場合、これらのログはどこにも出力されません。discord.pyでloggingモジュールを使用する方法の詳細は :ref:`logging_setup` を参照してください。"
+msgid "This module uses the Python logging module to log diagnostic and errors in an output independent way.  If the logging module is not configured, these logs will not be output anywhere.  See :ref:`logging_setup` for more information on how to set up and use the logging module with fluxer.py."
+msgstr "このモジュールはPythonのloggingモジュールを使用して、出力に依存しない方法でエラーや診断の内容を記録します。loggingモジュールが設定されていない場合、これらのログはどこにも出力されません。fluxer.pyでloggingモジュールを使用する方法の詳細は :ref:`logging_setup` を参照してください。"
 
 #: ../../api.rst:17
 msgid "Version Related Info"
@@ -7687,8 +7687,8 @@ msgid "Webhook Support"
 msgstr "Webhookサポート"
 
 #: ../../api.rst:4265
-msgid "discord.py offers support for creating, editing, and executing webhooks through the :class:`Webhook` class."
-msgstr "discord.pyは、 :class:`Webhook` クラスからWebhookの作成、編集、実行をサポートします。"
+msgid "fluxer.py offers support for creating, editing, and executing webhooks through the :class:`Webhook` class."
+msgstr "fluxer.pyは、 :class:`Webhook` クラスからWebhookの作成、編集、実行をサポートします。"
 
 #: ../../api.rst:4268
 msgid "Webhook"
@@ -19379,8 +19379,8 @@ msgid "The ID of the object."
 msgstr "オブジェクトのID。"
 
 #: ../../../discord/object.py:docstring of discord.object.Object:36
-msgid "The discord.py model type of the object, if not specified, defaults to this class."
-msgstr "オブジェクトのdiscord.pyモデルタイプ。指定されていない場合は、デフォルトでこのクラスになります。"
+msgid "The fluxer.py model type of the object, if not specified, defaults to this class."
+msgstr "オブジェクトのfluxer.pyモデルタイプ。指定されていない場合は、デフォルトでこのクラスになります。"
 
 #: ../../../discord/object.py:docstring of discord.object.Object:40
 msgid "In instances where there are multiple applicable types, use a shared base class. for example, both :class:`Member` and :class:`User` are subclasses of :class:`abc.User`."
@@ -22708,8 +22708,8 @@ msgid "The following exceptions are thrown by the library."
 msgstr "以下の例外がライブラリにより送出されます。"
 
 #: ../../../discord/errors.py:docstring of discord.errors.DiscordException:1
-msgid "Base exception class for discord.py"
-msgstr "discord.py の基本例外クラス"
+msgid "Base exception class for fluxer.py"
+msgstr "fluxer.py の基本例外クラス"
 
 #: ../../../discord/errors.py:docstring of discord.errors.DiscordException:3
 msgid "Ideally speaking, this could be caught to handle any exceptions raised from this library."

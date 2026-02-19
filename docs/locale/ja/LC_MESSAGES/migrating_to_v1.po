@@ -39,7 +39,7 @@ msgstr "Pythonのバージョンの変更"
 
 #: ../../migrating_to_v1.rst:22
 msgid "In order to make development easier and also to allow for our dependencies to upgrade to allow usage of 3.7 or higher, the library had to remove support for Python versions lower than 3.5.3, which essentially means that **support for Python 3.4 is dropped**."
-msgstr "discord.py の開発をより簡単にし、またその依存関係にあるライブラリをアップグレードして Python 3.7 以上を使えるようにするために、 discord. py は Python 3.5.3 より古いバージョンに対するサポートを諦めざるを得ませんでした。これはつまり **Python 3.4 に対するサポートは打ち切られた** ということです。"
+msgstr "fluxer.py の開発をより簡単にし、またその依存関係にあるライブラリをアップグレードして Python 3.7 以上を使えるようにするために、 discord. py は Python 3.5.3 より古いバージョンに対するサポートを諦めざるを得ませんでした。これはつまり **Python 3.4 に対するサポートは打ち切られた** ということです。"
 
 #: ../../migrating_to_v1.rst:27
 msgid "Major Model Changes"

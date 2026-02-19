@@ -50,7 +50,7 @@ def test_embed_initialization(title, description, colour, url):
 @pytest.mark.parametrize(
     ('text', 'icon_url'),
     [
-        ('Hello discord.py', 'https://example.com'),
+        ('Hello fluxer.py', 'https://example.com'),
         ('text', None),
         (None, 'https://example.com'),
         (None, None),
@@ -65,7 +65,7 @@ def test_embed_set_footer(text, icon_url):
 
 def test_embed_remove_footer():
     embed = discord.Embed()
-    embed.set_footer(text='Hello discord.py', icon_url='https://example.com')
+    embed.set_footer(text='Hello fluxer.py', icon_url='https://example.com')
     embed.remove_footer()
     assert embed.footer.text is None
     assert embed.footer.icon_url is None

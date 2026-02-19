@@ -22,8 +22,8 @@ msgid "Setting Up Logging"
 msgstr "ログの設定"
 
 #: ../../logging.rst:10
-msgid "*discord.py* logs errors and debug information via the :mod:`logging` python module. In order to streamline this process, the library provides default configuration for the ``discord`` logger when using :meth:`Client.run`. It is strongly recommended that the logging module is configured, as no errors or warnings will be output if it is not set up."
-msgstr "*discord.py* は、エラーとデバッグ情報を :mod:`logging` Python モジュールを用いて出力します。このプロセスを容易にするため、ライブラリは :meth:`Client.run` を使用したときに ``discord`` ロガーのデフォルト構成を提供します。設定されていないとエラーや警告は一切出力されないため、 logging モジュールを設定することを強く推奨します。"
+msgid "*fluxer.py* logs errors and debug information via the :mod:`logging` python module. In order to streamline this process, the library provides default configuration for the ``discord`` logger when using :meth:`Client.run`. It is strongly recommended that the logging module is configured, as no errors or warnings will be output if it is not set up."
+msgstr "*fluxer.py* は、エラーとデバッグ情報を :mod:`logging` Python モジュールを用いて出力します。このプロセスを容易にするため、ライブラリは :meth:`Client.run` を使用したときに ``discord`` ロガーのデフォルト構成を提供します。設定されていないとエラーや警告は一切出力されないため、 logging モジュールを設定することを強く推奨します。"
 
 #: ../../logging.rst:13
 msgid "The default logging configuration provided by the library will print to :data:`sys.stderr` using coloured output. You can configure it to send to a file instead by using one of the built-in :mod:`logging.handlers`, such as :class:`logging.FileHandler`."

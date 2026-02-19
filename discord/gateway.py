@@ -459,8 +459,8 @@ class DiscordWebSocket:
                 'token': self.token,
                 'properties': {
                     'os': sys.platform,
-                    'browser': 'discord.py',
-                    'device': 'discord.py',
+                    'browser': 'fluxer.py',
+                    'device': 'fluxer.py',
                 },
                 'compress': True,
                 'large_threshold': 250,

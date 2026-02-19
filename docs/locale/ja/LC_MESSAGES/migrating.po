@@ -219,8 +219,8 @@ msgid "Python 3.7 introduced a new helper function :func:`asyncio.run` which aut
 msgstr "Python 3.7で、自動的に非同期のイベントループを作成し破壊する :func:`asyncio.run` ヘルパー関数が導入されました。"
 
 #: ../../migrating.rst:75
-msgid "In order to support this, the way discord.py handles the :mod:`asyncio` event loop has changed."
-msgstr "これをサポートするために、discord.pyの :mod:`asyncio` のイベントループの扱い方が変更されました。"
+msgid "In order to support this, the way fluxer.py handles the :mod:`asyncio` event loop has changed."
+msgstr "これをサポートするために、fluxer.pyの :mod:`asyncio` のイベントループの扱い方が変更されました。"
 
 #: ../../migrating.rst:77
 msgid "This allows you to rather than using :meth:`Client.run` create your own asynchronous loop to setup other asynchronous code as needed."

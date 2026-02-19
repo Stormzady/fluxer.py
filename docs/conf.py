@@ -1,5 +1,5 @@
 #
-# discord.py documentation build configuration file, created by
+# fluxer.py documentation build configuration file, created by
 # sphinx-quickstart on Fri Aug 21 05:43:30 2015.
 #
 # This file is execfile()d with the current directory set to its
@@ -52,7 +52,7 @@ autodoc_typehints = 'none'
 # napoleon_attr_annotations = False
 
 extlinks = {
-    'issue': ('https://github.com/Rapptz/discord.py/issues/%s', 'GH-%s'),
+    'issue': ('https://github.com/Rapptz/fluxer.py/issues/%s', 'GH-%s'),
     'ddocs': ('https://fluxer.app/developers/docs/%s', None),
 }
 
@@ -83,7 +83,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'discord.py'
+project = 'fluxer.py'
 copyright = '2015-present, Rapptz'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -188,9 +188,9 @@ html_context = {
 
 resource_links = {
   'discord': 'https://discord.gg/r3sSKJJ',
-  'issues': 'https://github.com/Rapptz/discord.py/issues',
-  'discussions': 'https://github.com/Rapptz/discord.py/discussions',
-  'examples': f'https://github.com/Rapptz/discord.py/tree/{branch}/examples',
+  'issues': 'https://github.com/Rapptz/fluxer.py/issues',
+  'discussions': 'https://github.com/Rapptz/fluxer.py/discussions',
+  'examples': f'https://github.com/Rapptz/fluxer.py/tree/{branch}/examples',
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -291,7 +291,7 @@ html_js_files = [
 ]
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'discord.pydoc'
+htmlhelp_basename = 'fluxer.pydoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -313,7 +313,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'discord.py.tex', 'discord.py Documentation',
+  ('index', 'fluxer.py.tex', 'fluxer.py Documentation',
    'Rapptz', 'manual'),
 ]
 
@@ -343,7 +343,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'discord.py', 'discord.py Documentation',
+    ('index', 'fluxer.py', 'fluxer.py Documentation',
      ['Rapptz'], 1)
 ]
 
@@ -357,8 +357,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'discord.py', 'discord.py Documentation',
-   'Rapptz', 'discord.py', 'One line description of project.',
+  ('index', 'fluxer.py', 'fluxer.py Documentation',
+   'Rapptz', 'fluxer.py', 'One line description of project.',
    'Miscellaneous'),
 ]
 

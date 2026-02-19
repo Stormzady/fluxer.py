@@ -22,8 +22,8 @@ msgid "API Reference"
 msgstr "APIリファレンス"
 
 #: ../../ext/commands/api.rst:6
-msgid "The following section outlines the API of discord.py's command extension module."
-msgstr "この項目ではdiscord.pyのAPIが持つコマンド拡張モジュールについて解説します。"
+msgid "The following section outlines the API of fluxer.py's command extension module."
+msgstr "この項目ではfluxer.pyのAPIが持つコマンド拡張モジュールについて解説します。"
 
 #: ../../ext/commands/api.rst:11
 msgid "Bots"

@@ -7,7 +7,7 @@
 Setting Up Logging
 ===================
 
-*discord.py* logs errors and debug information via the :mod:`logging` python
+*fluxer.py* logs errors and debug information via the :mod:`logging` python
 module. In order to streamline this process, the library provides default configuration for the ``discord`` logger when using :meth:`Client.run`. It is strongly recommended that the logging module is configured, as no errors or warnings will be output if it is not set up.
 
 The default logging configuration provided by the library will print to :data:`sys.stderr` using coloured output. You can configure it to send to a file instead by using one of the built-in :mod:`logging.handlers`, such as :class:`logging.FileHandler`.

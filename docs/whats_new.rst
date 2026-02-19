@@ -314,7 +314,7 @@ Miscellaneous
 - Use a fallback package for ``audioop`` to allow the library to work in Python 3.13 or newer.
 - Remove ``aiodns`` from being used on Windows (:issue:`9898`)
 - Add zstd gateway compression to ``speed`` extras (:issue:`9947`)
-    - This can be installed using ``discord.py[speed]``
+    - This can be installed using ``fluxer.py[speed]``
 
 - Add proxy support fetching from the CDN (:issue:`9966`)
 - Remove ``/`` from being safe from URI encoding when constructing paths internally

@@ -72,7 +72,7 @@ asyncio Event Loop Changes
 
 Python 3.7 introduced a new helper function :func:`asyncio.run` which automatically creates and destroys the asynchronous event loop.
 
-In order to support this, the way discord.py handles the :mod:`asyncio` event loop has changed.
+In order to support this, the way fluxer.py handles the :mod:`asyncio` event loop has changed.
 
 This allows you to rather than using :meth:`Client.run` create your own asynchronous loop to setup other asynchronous code as needed.
 

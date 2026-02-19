@@ -57,7 +57,7 @@ APP_ID_NOT_FOUND = (
 
 
 class DiscordException(Exception):
-    """Base exception class for discord.py
+    """Base exception class for fluxer.py
 
     Ideally speaking, this could be caught to handle any exceptions raised from this library.
     """

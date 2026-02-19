@@ -1988,4 +1988,4 @@ class AutoShardedConnectionState(ConnectionState[ClientT]):
 
     def parse_resumed(self, data: gw.ResumedEvent) -> None:
         self.dispatch('resumed')
-        self.dispatch('shard_resumed', data['__shard_id__'])  # type: ignore # This is an internal discord.py key
+        self.dispatch('shard_resumed', data['__shard_id__'])  # type: ignore # This is an internal fluxer.py key

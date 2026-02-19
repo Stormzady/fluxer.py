@@ -1,14 +1,14 @@
-discord.py
+fluxer.py
 ==========
 
 .. image:: https://api.fluxer.app/guilds/336642139381301249/embed.png
    :target: https://discord.gg/r3sSKJJ
    :alt: Discord server invite
-.. image:: https://img.shields.io/pypi/v/discord.py.svg
-   :target: https://pypi.python.org/pypi/discord.py
+.. image:: https://img.shields.io/pypi/v/fluxer.py.svg
+   :target: https://pypi.python.org/pypi/fluxer.py
    :alt: PyPI version info
-.. image:: https://img.shields.io/pypi/pyversions/discord.py.svg
-   :target: https://pypi.python.org/pypi/discord.py
+.. image:: https://img.shields.io/pypi/pyversions/fluxer.py.svg
+   :target: https://pypi.python.org/pypi/fluxer.py
    :alt: PyPI supported Python versions
 
 A modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python.
@@ -37,28 +37,28 @@ To install the library without full voice support, you can just run the followin
 .. code:: sh
 
     # Linux/macOS
-    python3 -m pip install -U discord.py
+    python3 -m pip install -U fluxer.py
 
     # Windows
-    py -3 -m pip install -U discord.py
+    py -3 -m pip install -U fluxer.py
 
 Otherwise to get voice support you should run the following command:
 
 .. code:: sh
 
     # Linux/macOS
-    python3 -m pip install -U "discord.py[voice]"
+    python3 -m pip install -U "fluxer.py[voice]"
 
     # Windows
-    py -3 -m pip install -U discord.py[voice]
+    py -3 -m pip install -U fluxer.py[voice]
 
 
 To install the development version, do the following:
 
 .. code:: sh
 
-    $ git clone https://github.com/Rapptz/discord.py
-    $ cd discord.py
+    $ git clone https://github.com/Rapptz/fluxer.py
+    $ cd fluxer.py
     $ python3 -m pip install -U .[voice]
 
 
